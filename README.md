@@ -1,6 +1,8 @@
 #Togglr - A jQuery Plugin
 
-This plugin will let you make easy jQuery toggle associations between multiple HTML elements, it's hard to explain but hopefully the example will clear it up.
+This plugin will let you make easy jQuery toggle associations between multiple HTML elements.
+
+It's hard to explain but hopefully the example will clear it up.
 
 ###How To Use:
 
@@ -19,7 +21,9 @@ Add 'toggle-btn' as a class to the HTML element you want to act as trigger toget
 </div>
 ```
 
-In the example above clicking the top div will make the second div appear, but not the third div.
+In the example above clicking the top div will make the second div appear, and hide the third div with the 'toggle-box' class that doesn't have the same toggle type value.
+
+It will always hide any other element with the 'toggle-box' class with a different toggle-type value.
 
 
 Created by Jamie Röling - 5/13/2014 
