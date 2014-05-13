@@ -21,9 +21,9 @@ Add 'toggle-btn' as a class to the HTML element you want to act as trigger toget
 </div>
 ```
 
-In the example above clicking the top div will make the second div appear, and hide the third div with the 'toggle-box' class that doesn't have the same toggle type value.
+In the example above clicking the top div will make the second div appear, and hide the third div with the 'toggle-box' class that doesn't have the same data-toggle value.
 
-It will always hide any other element with the 'toggle-box' class with a different toggle-type value.
+It will always hide any other element with the 'toggle-box' class with a different data-toggle value.
 
 
 Created by Jamie Röling - 5/13/2014 
